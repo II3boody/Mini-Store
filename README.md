@@ -1,54 +1,37 @@
 # Mini-Store
 
-مخزن تجريبي مبني بـ React لعرض منتجات بسيطة وإضافة للسلة.
+A responsive e-commerce frontend built with React.js, featuring product browsing, product details, shopping cart functionality, and client-side routing.
 
-Live demo: https://ii3boody.github.io/Mini-Store/
+Live Demo: https://ii3boody.github.io/Mini-Store/
 
-## وصف المشروع
+## Preview
 
-Mini-Store هو مشروع تعليمي يعرض متجر إلكتروني بسيط مع صفحات المنتجات، تفاصيل المنتج، وسلة مشتريات. الهدف هو تدريب على استخدام React، إدارة الحالة، والروتينج.
+![Mini-Store Preview](./screenshot.png)
 
-## الميزات
-- عرض قائمة منتجات مميزة
-- صفحة تفاصيل كل منتج
-- إضافة وحذف عناصر من السلة مع تحديث إجمالي السعر
-- تصميم متجاوب باستخدام Bootstrap
-- نشر على GitHub Pages
+## Features
 
-## التقنيات المستخدمة
-- React
-- React Router (Hash Router للنشر على GitHub Pages)
+- Display a list of products
+- View detailed product information
+- Add and remove products from the shopping cart
+- Automatically calculate the total cart price
+- Client-side navigation using React Router
+- Responsive design
+- Bootstrap-based styling
+- Deployment using GitHub Pages
+
+## Technologies
+
+- React.js
+- JavaScript (ES6+)
+- React Router
 - Bootstrap
-- gh-pages (لنشر الموقع)
+- HTML5
+- CSS3
+- Git & GitHub
+- GitHub Pages
 
-## تشغيل المشروع محليًا
+## Getting Started
 
-1. انسخ الريبو:
+### Clone the repository
 
-```bash
-git clone https://github.com/II3boody/Mini-Store.git
-cd Mini-Store
-```
-
-2. تثبيت الحزم وتشغيل التطبيق:
-
-```bash
-npm install
-npm start
-```
-
-3. لبناء ونشر على GitHub Pages:
-
-```bash
-npm run build
-npm run deploy
-```
-
-## نشر (موجود بالفعل)
-المشروع مُنشر على GitHub Pages في الرابط أعلاه.
-
-## رخصة
-هذا المشروع للتعلم، استخدمه وعدّله كما تحب.
-
-## تواصل
-لو عايز أي تعديلات أو مساعدة، ابعتلي رسالة في GitHub أو هنا.
+...
