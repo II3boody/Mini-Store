@@ -1,0 +1,75 @@
+/* Add to the end of main.css for dark mode support */
+
+[data-bs-theme="dark"] body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .product-card,
+[data-bs-theme="dark"] .feature-card,
+[data-bs-theme="dark"] .hero-icon,
+[data-bs-theme="dark"] .form-control-lg,
+[data-bs-theme="dark"] .form-select-lg {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .product-icon,
+[data-bs-theme="dark"] .product-details-icon {
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+    border-color: #333;
+}
+
+[data-bs-theme="dark"] .form-control-lg::placeholder {
+    color: #aaa;
+}
+
+[data-bs-theme="dark"] .navbar {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #333;
+}
+
+[data-bs-theme="dark"] .text-muted {
+    color: #aaa !important;
+}
+
+[data-bs-theme="dark"] .cta-section {
+    background-color: #1e1e1e !important;
+}
+
+[data-bs-theme="dark"] .cart-card,
+[data-bs-theme="dark"] .cart-summary {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+[data-bs-theme="dark"] .cart-item {
+    background-color: transparent !important;
+    border-bottom-color: #333 !important;
+}
+
+[data-bs-theme="dark"] .cart-product-icon {
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%) !important;
+    border: 1px solid #333 !important;
+}
+
+[data-bs-theme="dark"] .list-group-item {
+    color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .bg-body-tertiary {
+    background-color: #2a2a2a !important;
+    border-color: #444 !important;
+}
+
+[data-bs-theme="dark"] .btn-light {
+    background-color: #333;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .btn-light:hover {
+    background-color: #444;
+    color: #fff;
+}

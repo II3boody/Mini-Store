@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { useCart } from '../../Context/CartContext';
+import { useTheme } from '../../Context/ThemeContext';
 
 export default function NavBar() {
     const { itemCount } = useCart();
+    const { theme, toggleTheme } = useTheme();
 
     return (
-        <nav className="navbar navbar-expand-lg bg-white shadow-sm">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
 
             <div className="container">
 
@@ -53,6 +55,13 @@ export default function NavBar() {
                         </li>
 
                         <li className="nav-item ms-lg-3 mt-2 mt-lg-0">
+                            <button onClick={toggleTheme} className="btn btn-outline-secondary me-2">
+                                {theme === 'light' ? (
+                                    <i className="fa-solid fa-moon"></i>
+                                ) : (
+                                    <i className="fa-solid fa-sun"></i>
+                                )}
+                            </button>
                             <Link to="/cart" className="btn btn-outline-primary position-relative">
                                 <i className="fa-solid fa-cart-shopping"></i>
                                 {itemCount > 0 && (
