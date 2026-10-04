@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Mini-Store/static/css/main.2f537a1b.css",
-    "main.js": "/Mini-Store/static/js/main.6b465633.js",
+    "main.css": "/Mini-Store/static/css/main.2cb392e4.css",
+    "main.js": "/Mini-Store/static/js/main.6c304d69.js",
     "static/js/453.7fa45d3d.chunk.js": "/Mini-Store/static/js/453.7fa45d3d.chunk.js",
     "static/media/fa-solid-900.woff2": "/Mini-Store/static/media/fa-solid-900.dcef2f69dbd5989a2e69.woff2",
     "static/media/fa-brands-400.woff2": "/Mini-Store/static/media/fa-brands-400.41062caea457897b1d3b.woff2",
     "static/media/fa-regular-400.woff2": "/Mini-Store/static/media/fa-regular-400.fa2e58edfd73d8341e07.woff2",
     "static/media/fa-v4compatibility.woff2": "/Mini-Store/static/media/fa-v4compatibility.2129bf071a83c1d49732.woff2",
     "index.html": "/Mini-Store/index.html",
-    "main.2f537a1b.css.map": "/Mini-Store/static/css/main.2f537a1b.css.map",
-    "main.6b465633.js.map": "/Mini-Store/static/js/main.6b465633.js.map",
+    "main.2cb392e4.css.map": "/Mini-Store/static/css/main.2cb392e4.css.map",
+    "main.6c304d69.js.map": "/Mini-Store/static/js/main.6c304d69.js.map",
     "453.7fa45d3d.chunk.js.map": "/Mini-Store/static/js/453.7fa45d3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f537a1b.css",
-    "static/js/main.6b465633.js"
+    "static/css/main.2cb392e4.css",
+    "static/js/main.6c304d69.js"
   ]
 }
